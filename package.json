@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint source/*.js",
+    "pre-push": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepush": "npm run lint"
   },
   "repository": {
     "type": "git",
